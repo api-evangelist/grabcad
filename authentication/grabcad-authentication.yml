@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://print-api.grabcad.com/public/documentation
+docs: https://print-api.grabcad.com/public/documentation
+summary:
+  types:
+  - account-login
+  notes: 'The GrabCAD Print API is gated behind GrabCAD account credentials and the
+    GrabCAD Software Partner Program. The public documentation endpoint presents a
+    login form ("Please login using your GrabCAD credentials") and an OAuth-style
+    authorization path at /obscure/login; the machine-facing token/authorization
+    scheme is not published on the open web and requires partner enrollment. No
+    OpenAPI/Swagger securitySchemes are publicly available to derive from.'
+schemes:
+- name: grabcad-account
+  type: account-login
+  description: 'Authentication uses GrabCAD account credentials. Interactive docs
+    require login; programmatic access is provisioned through the GrabCAD Software
+    Partner Program (grabcad.com/software-partner/become-a-partner).'
+  login_url: https://print-api.grabcad.com/obscure/login
+  sources:
+  - searched:print-api.grabcad.com/public/documentation
+partner_program: https://grabcad.com/software-partner/become-a-partner
