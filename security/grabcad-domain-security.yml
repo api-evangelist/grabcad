@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: grabcad.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 15 23:59:59 2026 GMT
+  hsts: null
+- host: print-api.grabcad.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov  8 23:59:59 2026 GMT
+  hsts: null
+domains:
+- domain: grabcad.com
+  dnssec: false
+  caa:
+  - 0 issue "letsencrypt.org"
+  - 0 issue "amazontrust.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: none

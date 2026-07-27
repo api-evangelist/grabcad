@@ -1,0 +1,31 @@
+# GrabCAD
+
+> GrabCAD, a Stratasys company, runs a connected additive-manufacturing platform: the GrabCAD Community Library of free CAD models, GrabCAD Print / Print Pro for driving Stratasys 3D printers, GrabCAD Shop for shop-floor job management, and the GrabCAD Software Development Kit and Software Partner Program. Its developer surface centers on the login-gated GrabCAD Print API plus a family of downloadable SDKs for integrating Stratasys printers into ERP/PLM/MES and manufacturing software.
+
+## APIs
+
+- [GrabCAD Print API](https://print-api.grabcad.com/public/documentation): Drive Stratasys 3D printers and GrabCAD Print workflows programmatically (job submission/management, printer and job status). Base URL https://print-api.grabcad.com; documentation and access are gated behind GrabCAD account credentials and the Software Partner Program.
+
+## SDKs
+
+- [GrabCAD Software Development Kit](https://grabcad.com/en/software-development-kit): MTConnect data-streaming SDK, Printer Connectivity SDK (ERP/PLM/MES), PLM SDK, and an FDM printer emulator for development and testing.
+- [Software Partner Program](https://grabcad.com/software-partner/become-a-partner): Enrollment path for ISVs to obtain SDK access and API credentials.
+
+## Docs
+
+- [Developer / SDK portal](https://grabcad.com/en/software-development-kit)
+- [Help Center](https://help.grabcad.com)
+- [Blog](https://blog.grabcad.com)
+- [GitHub organization](https://github.com/GrabCAD)
+
+## Security
+
+- [security.txt](https://grabcad.com/.well-known/security.txt) (RFC 9116)
+- [Vulnerability disclosure / bug bounty (HackerOne)](https://hackerone.com/grabcad)
+
+## Company
+
+- [Website](https://grabcad.com)
+- [Sign up](https://grabcad.com/profile/register)
+- [Terms of Service](https://grabcad.com/terms)
+- [Privacy Policy](https://grabcad.com/privacy_policy)

@@ -1,8 +1,14 @@
 aid: grabcad
 name: GrabCAD
-description: 'GrabCAD is a company surfaced as a portfolio company of matrix-partners, seedcamp, techstars
-  and added to the API Evangelist network as a stub for enrichment. Sector: b2b. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'GrabCAD, a Stratasys company, operates a connected additive-manufacturing
+  platform spanning the GrabCAD Community Library of free CAD models, GrabCAD Print
+  and Print Pro for driving Stratasys 3D printers, GrabCAD Shop for shop-floor job
+  management, and the GrabCAD Software Development Kit / Software Partner Program.
+  For developers, GrabCAD exposes the GrabCAD Print API (print-api.grabcad.com) plus
+  a family of SDKs — MTConnect data streaming, a Printer Connectivity SDK for ERP/PLM/MES
+  integration, a PLM SDK, and an FDM printer emulator — that let ISVs and enterprises
+  integrate Stratasys printers and GrabCAD Print into their own manufacturing software
+  ecosystems.'
 url: https://raw.githubusercontent.com/api-evangelist/grabcad/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,18 +18,92 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://d1pspl52z5rk07.cloudfront.net/static/favicon.ico
 tags:
 - Company
 - B2B
-apis: []
+- 3D Printing
+- Additive Manufacturing
+- CAD
+- Manufacturing
+- Hardware
+- Developer SDK
+apis:
+- name: GrabCAD Print API
+  description: 'The GrabCAD Print API lets partner and enterprise software drive Stratasys
+    3D printers and GrabCAD Print workflows programmatically — submitting and managing
+    print jobs, retrieving printer and job status, and connecting factory-floor systems.
+    Access is gated behind GrabCAD account credentials and the GrabCAD Software Partner
+    Program; the interactive documentation is published at print-api.grabcad.com but
+    requires login.'
+  humanURL: https://print-api.grabcad.com/public/documentation
+  baseURL: https://print-api.grabcad.com
+  properties:
+  - type: Documentation
+    url: https://print-api.grabcad.com/public/documentation
+  - type: Authentication
+    url: authentication/grabcad-authentication.yml
+common:
+- type: Website
+  url: https://grabcad.com
+- type: DeveloperPortal
+  url: https://grabcad.com/en/software-development-kit
+- type: Documentation
+  url: https://help.grabcad.com
+- type: APIReference
+  url: https://print-api.grabcad.com/public/documentation
+- type: Blog
+  url: https://blog.grabcad.com
+- type: Support
+  url: https://help.grabcad.com
+- type: GitHubOrganization
+  url: https://github.com/GrabCAD
+- type: SignUp
+  url: https://grabcad.com/profile/register
+- type: Login
+  url: https://grabcad.com/login
+- type: TermsOfService
+  url: https://grabcad.com/terms
+- type: PrivacyPolicy
+  url: https://grabcad.com/privacy_policy
+- type: SecurityTxt
+  url: well-known/grabcad-security.txt
+- type: WellKnown
+  url: well-known/grabcad-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/grabcad-vulnerability-disclosure.yml
+- type: Security
+  url: https://hackerone.com/grabcad
+- type: DomainSecurity
+  url: security/grabcad-domain-security.yml
+- type: Authentication
+  url: authentication/grabcad-authentication.yml
+- type: Lifecycle
+  url: lifecycle/grabcad-lifecycle.yml
+- type: LLMsTxt
+  url: llms/grabcad-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: http://grabcad.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

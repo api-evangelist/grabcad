@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://print-api.grabcad.com/public/api/v0/documentation/
+versioning:
+  scheme: uri-path
+  current: v0
+  evidence: 'The GrabCAD Print API is served under a URI-path version segment
+    (print-api.grabcad.com/public/api/v0/...). The v0/ documentation now redirects
+    to a consolidated, login-gated docs location at /public/documentation.'
+deprecation: null
+sla: null
+status_page: null
+security_contact: security@grabcad.com
+hiring: https://blog.grabcad.com/jobs
+notes: 'No public status page, published SLA, or formal deprecation/Sunset-header
+  policy was found on the open web. No StatusPage or Deprecation canonical pointer
+  is emitted (nothing verified to point at).'

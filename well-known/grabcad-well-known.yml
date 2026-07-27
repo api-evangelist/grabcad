@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+host: https://grabcad.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: grabcad-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: 'Also probed the API host https://print-api.grabcad.com — /.well-known/security.txt
+  and OIDC/OAuth discovery all returned 404 there; the RFC 9116 security.txt is only
+  published on the apex grabcad.com host.'
