@@ -64,6 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-GrabCAD is a company surfaced as a portfolio company of matrix-partners, seedcamp, techstars and added to the API Evangelist network as a stub for enrichment. Sector: b2b. This profile is a lead awaiting the enrichment pipeline.
+GrabCAD, a Stratasys company, operates a connected additive-manufacturing platform spanning the GrabCAD Community Library of free CAD models, GrabCAD Print and Print Pro for driving Stratasys 3D printers, GrabCAD Shop for shop-floor job management, and the GrabCAD Software Development Kit / Software Partner Program. For developers, GrabCAD exposes the GrabCAD Print API (print-api.grabcad.com) plus a family of SDKs — MTConnect data streaming, a Printer Connectivity SDK for ERP/PLM/MES integration, a PLM SDK, and an FDM printer emulator — that let ISVs and enterprises integrate Stratasys printers and GrabCAD Print into their own manufacturing software ecosystems.
 
-Backed by: matrix-partners, seedcamp, techstars — http://grabcad.com
+**Areas:** Company · B2B · 3D Printing · CAD · Manufacturing · Hardware · Developer SDK
+
+## GrabCAD on APIs.io
+
+Everything profiled for GrabCAD is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/grabcad/](https://apis.io/providers/grabcad/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [GrabCAD Print API](https://apis.io/apis/grabcad/grabcad-print-api/) — The GrabCAD Print API lets partner and enterprise software drive Stratasys 3D printers and GrabCAD Print workflows programmatically — submitting and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Grabcad Authentication](https://apis.io/security/grabcad/grabcad-authentication/)
+- [Grabcad Domain Security](https://apis.io/security/grabcad/grabcad-domain-security/)
+- [Grabcad Vulnerability Disclosure](https://apis.io/security/grabcad/grabcad-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://grabcad.com)
+- [Documentation](https://help.grabcad.com)
+- [API reference](https://print-api.grabcad.com/public/documentation)
+- [Sign up](https://grabcad.com/profile/register)
+- [Support](https://help.grabcad.com)
+- [Blog](https://blog.grabcad.com)
+- [Security](https://hackerone.com/grabcad)
+- [Terms of service](https://grabcad.com/terms)
+- [Privacy policy](https://grabcad.com/privacy_policy)
+- [GitHub](https://github.com/GrabCAD)
+
+## API Evangelist rating
+
+**Kin Score 26.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 34.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/grabcad/](https://apis.io/providers/grabcad/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GrabCAD: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/grabcad/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
